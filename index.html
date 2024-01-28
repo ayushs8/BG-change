@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="changer.css">
+</head>
+<body>
+    <div id="color-switcher">
+        <span class="btn" id="white" onclick="changeBG('#ffffff')">
+
+        </span>
+        <span class="btn" id="aqua" onclick="changeBG('#7fffd4')"></span>
+        <span class="btn" id="violet" onclick="changeBG('#ce9aff')"></span>
+        <span class="btn" id="black" onclick="changeBG('#000000')"></span>
+    </div>
+    <h1 class="text">
+        welcome
+    </h1>
+    <img src="https://img.freepik.com/free-vector/creative-welcome-team-banner-corporate-hiring_1017-43282.jpg" alt="my image" >
+    <p class="text">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptatibus ut veniam voluptate cumque excepturi minima eligendi, molestias itaque quos ratione commodi in sequi sapiente enim, tempora animi similique! Placeat consequatur laboriosam ducimus pariatur tenetur eum veniam obcaecati dolorum quis harum quisquam nostrum iusto deserunt iste, quasi saepe nemo voluptatem. Provident cum similique ullam, suscipit totam nobis nemo, ad, error facere deserunt nihil mollitia. Nobis, necessitatibus numquam delectus officia, harum minus pariatur suscipit deserunt sint, molestias accusantium libero quod esse placeat voluptatibus culpa debitis eveniet! Neque adipisci asperiores sed ipsam consequatur sit aliquid dolor? Numquam tempore cumque quam rerum, reiciendis ratione architecto molestias, quas deleniti fugit nostrum sunt quia delectus. Minima fuga ea, et ullam similique repellendus molestiae accusamus voluptatum aliquam, quas quia? Animi ratione expedita alias. Veniam qui sit repellat sunt culpa eligendi placeat excepturi et fuga deserunt modi praesentium repellendus, rem pariatur ab! Repellendus officiis odio provident id totam incidunt unde veritatis aspernatur explicabo cupiditate nemo eveniet ea, velit tenetur natus laborum veniam delectus sed obcaecati ipsum debitis a dolore aperiam! Omnis ipsum, aperiam, commodi cupiditate veritatis unde voluptas quam modi ipsa voluptatum accusamus laborum earum sint itaque odit soluta cum. Impedit natus aut, obcaecati molestiae, nesciunt tempora, quod quisquam incidunt cum ipsam doloribus dolores minima. Quos, beatae? Voluptas est et soluta dolores at molestias, optio eius voluptatibus molestiae nobis ex, ut quasi inventore tenetur! Nemo assumenda quae sit unde? Enim unde, magni amet reiciendis ut impedit. Necessitatibus voluptas alias enim magni laboriosam molestiae a odio? Saepe cupiditate veniam assumenda ea rem, consequatur dicta autem sint qui impedit eligendi dolor fuga aliquam consequuntur labore eos laudantium similique voluptatem fugiat odit? Perferendis aspernatur quo sit distinctio maxime perspiciatis neque, atque magni modi minima doloribus dolores nobis animi expedita optio eius iste eos itaque dolore ipsum totam dicta omnis minus obcaecati? Autem vitae aliquam aperiam a, minima similique animi omnis ducimus molestiae delectus vel dignissimos debitis amet consequuntur quidem. Quibusdam delectus facilis sint cumque maiores corrupti tenetur perferendis eveniet dolorum. Sequi in ipsum reprehenderit reiciendis ipsam repudiandae labore aspernatur sed maxime cum fugit, velit pariatur nam delectus. Molestiae fugiat numquam aperiam dolores facilis adipisci amet officia perspiciatis incidunt, et quisquam explicabo voluptas est temporibus nisi itaque architecto ullam illo odio consectetur. Eos, nam autem esse, distinctio, dolorum laborum sunt iusto debitis voluptate quae consequatur quia voluptatem deserunt. Expedita, consequatur molestias totam sunt repudiandae dolore debitis deleniti tempora ea adipisci distinctio tenetur modi iste rem accusamus aut commodi? Magnam optio, molestias magni quibusdam tempore dolores placeat ipsam eius explicabo iusto nemo rerum ex, voluptas id mollitia aliquam dolor numquam ducimus enim cupiditate libero, a ut. Libero doloribus cupiditate perspiciatis nulla laudantium, a possimus commodi provident ratione, iure itaque deserunt modi aliquam totam culpa sunt? Facilis doloribus sequi eligendi, optio accusamus, quam saepe excepturi dolor magnam explicabo dolore, itaque ab tempore! Officia repellendus sunt nesciunt eaque iure quod, unde aut quia sint, perferendis veritatis labore odit debitis sapiente tempore commodi, similique doloribus atque mollitia et cum. Minima, hic provident! Aperiam, nemo doloremque.
+
+
+    </p>
+    <script>
+        function changeBG(color){
+            document.body.style.backgroundColor=color;
+            let txt=document.getElementsByClassName("text");
+            if(color == "#000000"){
+                 for(let elm of txt ){
+                    elm.style.color="white";
+                 }
+            }
+            else{
+                for(let elm of txt){
+                    elm.style.color="black";
+                }
+            }
+        }
+    </script>
+</body>
+</html>
